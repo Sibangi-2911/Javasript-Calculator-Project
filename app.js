@@ -14,3 +14,8 @@ document.getElementById("updateCounter").addEventListener("click", ()=>{
   incrementCounter();
   document.getElementById("counter").textContent=counter;
 });
+
+//module scope
+import { showPublicVar, showGlobalThis } from "./src/moduleScope.js";
+showPublicVar();
+showGlobalThis();
